@@ -1,0 +1,51 @@
+.Photo-Container {
+  position: relative;
+  text-align: center;
+  /* z-index: -1; */
+  color: white;
+}
+/* .Photo-Container > img {
+  object-fit: cover;
+  width: 100%;
+} */
+
+.ImageBody-content {
+  /* border: 2px solid black; */
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  width: 67%;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ImageBody-content-text-small {
+  margin-bottom: 105px;
+  text-align: center;
+  margin-right: 471px;
+}
+.ImageBody-content p > small {
+  font-weight: 417;
+  font-size: 15px;
+  text-align: left !important;
+}
+
+.ImageBody-content-text-head5 {
+  margin-top: -85px;
+  margin-right: 203px;
+  font-size: 53px;
+  font-weight: 389;
+  text-align: left;
+  padding-left: 95px;
+}
+.ImageBody-content-text-passage {
+  margin-bottom: 0px;
+  margin-top: -6px;
+  font-weight: 300;
+  font-size: 29px;
+  margin-left: 69px;
+}
